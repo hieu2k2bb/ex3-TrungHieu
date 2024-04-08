@@ -20,7 +20,7 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('./assets/th.jpg')} style={styles.backgroundImage}>
+      <ImageBackground source={require('./assets/backgourd.webp')} style={styles.backgroundImage}>
         <View style={styles.overlay}>
           <Image source={require('./assets/tdmu.jpg')} style={styles.logo} />
           <TextInput
